@@ -1,0 +1,213 @@
+body{
+text-align: center; 
+}
+
+.titlea {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.background {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh;
+    background-color: rgb(228, 255, 0); 
+    z-index: -1000;
+  }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.day1 {
+    width: 600px;
+    height: 1300px;
+    border: auto rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+    border-style: solid;
+    margin: auto;
+    outline-width: 50px;
+}
+
+.outline {
+    width: 50%;
+    height: 1250px;
+    outline-width: 50px;
+   border: auto rgb(0, 0, 0);
+    border-style: solid;
+    border-left-width: 0px;
+    background-color:  rgb(228, 255, 0);
+   margin-left: 0%;
+   float: left;
+}
+.outlineright {
+    width: 49%;
+    height: 150px;
+    outline-width: 50px;
+    background-color: black;
+    float: right;
+}
+
+
+.box1 {
+
+    width: 220px;
+    height: 525px;
+    margin: auto;
+    position:relative
+}
+
+.greyshirt {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    transition: 0.5s ease;
+}
+
+.fnpants {
+    width: 90%;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 0%;
+    transition: 0.5s ease;
+}
+
+.box2 {
+    width: 220px;
+    height: 400px;
+    margin: auto;
+    margin-top: 8px;
+    position:relative
+}
+
+.shoes {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+.blackshirt {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    transition: 0.5s ease;
+}
+
+.box3 {
+    width: 220px;
+    height: 445px;
+    margin: auto;
+    margin-top: 8px;
+    position:relative
+}
+
+.blackshorts {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    transition: 0.5s ease;
+}
+
+.sambas {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+.photobox {
+    background-color: gold;
+}
+
+.b1 {
+float: left;
+width: 33%;
+height: auto;
+}
+
+.b2 {
+float: left;
+width: 33%;
+height: auto;
+margin-left: 5px;
+}
+
+.b3 {
+    float: right;
+    width: 33%;
+    height: auto;
+}
+#titletext{
+    color:  rgb(228, 255, 0);
+}
+#desc{
+
+    color:  rgb(228, 255, 0);
+}
+
+@media screen and (max-width:1000px){
+.day1{
+    background-color:  rgb(228, 255, 0);
+}
+
+#titletext{
+    color: black;
+}
+
+#desc{
+    color: black;
+}
+
+.background{
+    background-color: blue;
+}
+.outlineright{
+    background-color: rgb(228, 255, 0);
+}
+
+.outline{
+    background-color: blue;
+}
+.titlea{
+    color: rgb(228, 255, 0);
+}
+}
+
+
+.greyshirt:hover{
+    cursor: wait;
+    rotate: .5rad;
+}
+
+.fnpants:hover{
+    cursor: wait;
+    rotate: -.5rad;
+}
+
+.blackshorts:hover{
+    cursor: wait;
+    rotate: -.5rad;
+}
+
+.blackshirt:hover{
+    cursor: wait;
+    rotate: .5rad;
+}
+
+
+.blue-outline {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 100%;
+    border: 200px solid rgb(0, 0, 0);
+    pointer-events: none; 
+    z-index: -999; 
+}
